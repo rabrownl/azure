@@ -1,0 +1,11 @@
+ git config --global user.name “RB-Boss-2018“
+ git config --global user.email “rabrownl@microsoft.com”
+ git clone https://github.com/Azure-Samples/html-docs-hello-world.git
+
+
+# Enter the directory of the website code
+cd html-docs-hello-world/
+# Configure git to push code directory to the website
+git remote add azure https://RB-Boss-2018@rafaela12345.scm.azurewebsites.net:443/rafaela12345.git
+# Push the website code up
+git push azure master
