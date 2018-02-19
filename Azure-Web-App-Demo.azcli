@@ -9,3 +9,11 @@ cd html-docs-hello-world/
 git remote add azure https://RB-Boss-2018@rafaela12345.scm.azurewebsites.net:443/rafaela12345.git
 # Push the website code up
 git push azure master
+
+
+
+nano index.html
+# Look for the header that says “Azure something”
+# Change it to something different – eg today’s Azure discovery day
+Write Out
+Exit
